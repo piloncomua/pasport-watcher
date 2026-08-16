@@ -1,0 +1,24 @@
+{
+  "watch_url": "https://prague.pasport.org.ua/solutions/e-queue",
+  "unavailable_phrases": [
+    "всі місця зайняті",
+    "спробуйте в інший час або день",
+    "немає вільних",
+    "вільних місць немає",
+    "вільні дати відсутні",
+    "запис недоступний",
+    "немає доступних дат",
+    "немає вільного часу",
+    "no available",
+    "no slots"
+  ],
+  "poll_interval_normal_sec": 120,
+  "burst_offsets_sec": [
+    15,
+    60,
+    105,
+    165,
+    225,
+    285
+  ]
+}
