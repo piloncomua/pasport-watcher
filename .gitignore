@@ -1,20 +1,21 @@
-# Личные секреты и настройки — НЕ публикуем (токен бота, chat_id, dedup-токен)
+# Telegram-notifier и облачный воркер — приватные инструменты, не публикуем.
+# В репозитории только watch.py (личный локальный сигнал для самостоятельного
+# бронирования).
+notifier.py
 notifier_config.json
-
-# Личные операционные заметки про мой конкретный деплой (реальный chat_id,
-# ссылки на приватный воркер и т.п.) — не для публикации, README.md заменяет
-# её как публичная документация.
+notifier_config.example.json
+notifier_state.json
+start_notifier.bat
+start_notifier_sound.bat
+install_autostart.ps1
+uninstall_autostart.ps1
 README_NOTIFIER.txt
+cf-worker/
 
 # Логи и runtime-состояние
 *.log
-notifier_state.json
 baseline.txt
 
 # Python
 __pycache__/
 *.pyc
-
-# Облачная часть (воркер) — приватная, не публикуем; в репозитории только
-# локальные инструменты (notifier.py / watch.py).
-cf-worker/
